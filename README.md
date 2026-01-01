@@ -27,12 +27,12 @@ The model was evaluated on a test set comprising 20% of the total data. It achie
 #### Confusion Matrix
 The confusion matrix highlights the model's precision, specifically its ability to minimize False Positives (legitimate emails incorrectly flagged as spam).
 
-![Confusion Matrix](confusion_matrix.png)
+![Confusion Matrix](assets/confusion_matrix.png)
 
 #### Word Frequency Distribution
 These charts display the most frequent words found in each category after cleaning. Words such as "free" and "claim" serve as strong indicators for the spam class.
 
-![Top Words](top_words.png)
+![Top Words](assets/top_words.png)
 
 ## Mathematical Foundation
 The classifier is based on Bayes' Theorem, calculating the posterior probability of a class given a set of observed words:
